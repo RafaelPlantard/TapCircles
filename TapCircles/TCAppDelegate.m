@@ -6,14 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TCAppDelegate.h"
 
-@interface AppDelegate ()
+@interface TCAppDelegate ()
 
 @end
 
-@implementation AppDelegate
-
+@implementation TCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

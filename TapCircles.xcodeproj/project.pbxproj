@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5307BA9D1C4D86E60026910C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA9C1C4D86E60026910C /* main.m */; };
-		5307BAA01C4D86E60026910C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA9F1C4D86E60026910C /* AppDelegate.m */; };
-		5307BAA31C4D86E60026910C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BAA21C4D86E60026910C /* ViewController.m */; };
+		5307BAA01C4D86E60026910C /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BA9F1C4D86E60026910C /* TCAppDelegate.m */; };
+		5307BAA31C4D86E60026910C /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BAA21C4D86E60026910C /* TCViewController.m */; };
 		5307BAA61C4D86E60026910C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BAA41C4D86E60026910C /* Main.storyboard */; };
 		5307BAA81C4D86E60026910C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307BAA71C4D86E60026910C /* Assets.xcassets */; };
 		5307BAAB1C4D86E60026910C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BAA91C4D86E60026910C /* LaunchScreen.storyboard */; };
@@ -29,10 +29,10 @@
 /* Begin PBXFileReference section */
 		5307BA981C4D86E60026910C /* TapCircles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCircles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5307BA9C1C4D86E60026910C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5307BA9E1C4D86E60026910C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5307BA9F1C4D86E60026910C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5307BAA11C4D86E60026910C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5307BAA21C4D86E60026910C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5307BA9E1C4D86E60026910C /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		5307BA9F1C4D86E60026910C /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		5307BAA11C4D86E60026910C /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		5307BAA21C4D86E60026910C /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
 		5307BAA51C4D86E60026910C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5307BAA71C4D86E60026910C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5307BAAA1C4D86E60026910C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,10 +81,9 @@
 		5307BA9A1C4D86E60026910C /* TapCircles */ = {
 			isa = PBXGroup;
 			children = (
-				5307BA9E1C4D86E60026910C /* AppDelegate.h */,
-				5307BA9F1C4D86E60026910C /* AppDelegate.m */,
-				5307BAA11C4D86E60026910C /* ViewController.h */,
-				5307BAA21C4D86E60026910C /* ViewController.m */,
+				5307BAC21C4D88660026910C /* Views */,
+				5307BAC11C4D885E0026910C /* Controllers */,
+				5307BAC01C4D88590026910C /* Commons */,
 				5307BAA41C4D86E60026910C /* Main.storyboard */,
 				5307BAA71C4D86E60026910C /* Assets.xcassets */,
 				5307BAA91C4D86E60026910C /* LaunchScreen.storyboard */,
@@ -109,6 +108,31 @@
 				5307BAB71C4D86E60026910C /* Info.plist */,
 			);
 			path = TapCirclesTests;
+			sourceTree = "<group>";
+		};
+		5307BAC01C4D88590026910C /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				5307BA9E1C4D86E60026910C /* TCAppDelegate.h */,
+				5307BA9F1C4D86E60026910C /* TCAppDelegate.m */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		5307BAC11C4D885E0026910C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5307BAA11C4D86E60026910C /* TCViewController.h */,
+				5307BAA21C4D86E60026910C /* TCViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5307BAC21C4D88660026910C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +179,7 @@
 		5307BA901C4D86E60026910C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TC;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Data Empire";
 				TargetAttributes = {
@@ -213,8 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5307BAA31C4D86E60026910C /* ViewController.m in Sources */,
-				5307BAA01C4D86E60026910C /* AppDelegate.m in Sources */,
+				5307BAA31C4D86E60026910C /* TCViewController.m in Sources */,
+				5307BAA01C4D86E60026910C /* TCAppDelegate.m in Sources */,
 				5307BA9D1C4D86E60026910C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

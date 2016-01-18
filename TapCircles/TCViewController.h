@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  TapCircles
 //
 //  Created by Rafael Ferreira on 1/18/16.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+/*! @brief The controller for the home view. */
+@interface TCViewController : UIViewController
 
 @end
-
