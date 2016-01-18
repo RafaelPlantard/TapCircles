@@ -63,9 +63,9 @@
 		5307BA8F1C4D86E60026910C = {
 			isa = PBXGroup;
 			children = (
+				5307BA991C4D86E60026910C /* Products */,
 				5307BA9A1C4D86E60026910C /* TapCircles */,
 				5307BAB41C4D86E60026910C /* TapCirclesTests */,
-				5307BA991C4D86E60026910C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +81,14 @@
 		5307BA9A1C4D86E60026910C /* TapCircles */ = {
 			isa = PBXGroup;
 			children = (
-				5307BAC21C4D88660026910C /* Views */,
-				5307BAC11C4D885E0026910C /* Controllers */,
 				5307BAC01C4D88590026910C /* Commons */,
-				5307BAA41C4D86E60026910C /* Main.storyboard */,
-				5307BAA71C4D86E60026910C /* Assets.xcassets */,
-				5307BAA91C4D86E60026910C /* LaunchScreen.storyboard */,
-				5307BAAC1C4D86E60026910C /* Info.plist */,
+				5307BAC11C4D885E0026910C /* Controllers */,
 				5307BA9B1C4D86E60026910C /* Supporting Files */,
+				5307BAC21C4D88660026910C /* Views */,
+				5307BAA71C4D86E60026910C /* Assets.xcassets */,
+				5307BAAC1C4D86E60026910C /* Info.plist */,
+				5307BAA91C4D86E60026910C /* LaunchScreen.storyboard */,
+				5307BAA41C4D86E60026910C /* Main.storyboard */,
 			);
 			path = TapCircles;
 			sourceTree = "<group>";
@@ -98,14 +98,14 @@
 			children = (
 				5307BA9C1C4D86E60026910C /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5307BAB41C4D86E60026910C /* TapCirclesTests */ = {
 			isa = PBXGroup;
 			children = (
-				5307BAB51C4D86E60026910C /* TapCirclesTests.m */,
 				5307BAB71C4D86E60026910C /* Info.plist */,
+				5307BAB51C4D86E60026910C /* TapCirclesTests.m */,
 			);
 			path = TapCirclesTests;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 				5307BA9E1C4D86E60026910C /* TCAppDelegate.h */,
 				5307BA9F1C4D86E60026910C /* TCAppDelegate.m */,
 			);
-			name = Commons;
+			path = Commons;
 			sourceTree = "<group>";
 		};
 		5307BAC11C4D885E0026910C /* Controllers */ = {
@@ -125,14 +125,14 @@
 				5307BAA11C4D86E60026910C /* TCViewController.h */,
 				5307BAA21C4D86E60026910C /* TCViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		5307BAC21C4D88660026910C /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +269,7 @@
 				5307BAA51C4D86E60026910C /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		5307BAA91C4D86E60026910C /* LaunchScreen.storyboard */ = {
@@ -277,6 +278,7 @@
 				5307BAAA1C4D86E60026910C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,6 +431,7 @@
 				5307BABC1C4D86E60026910C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5307BABD1C4D86E60026910C /* Build configuration list for PBXNativeTarget "TapCirclesTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +440,7 @@
 				5307BABF1C4D86E60026910C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
