@@ -7,6 +7,7 @@
 //
 
 #import "TCViewController.h"
+#import "TCTapCircleView.h"
 
 @interface TCViewController ()
 
@@ -14,14 +15,12 @@
 
 @implementation TCViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadView {
+    TCTapCircleView *circleView = [TCTapCircleView new];
+    
+    circleView.backgroundColor = [UIColor whiteColor];
+    
+    self.view = circleView;
 }
 
 @end

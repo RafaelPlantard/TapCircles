@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 /*! @brief The controller for the home view. */
-@interface TCViewController : UIViewController
+@interface TCViewController : UIViewController 
 
 @end

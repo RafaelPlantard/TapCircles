@@ -14,6 +14,8 @@
 		5307BAA81C4D86E60026910C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5307BAA71C4D86E60026910C /* Assets.xcassets */; };
 		5307BAAB1C4D86E60026910C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5307BAA91C4D86E60026910C /* LaunchScreen.storyboard */; };
 		5307BAB61C4D86E60026910C /* TapCirclesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307BAB51C4D86E60026910C /* TapCirclesTests.m */; };
+		53F3CB801C4DBD470059D7AA /* TCTapCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F3CB7F1C4DBD470059D7AA /* TCTapCircleView.m */; };
+		53F3CB881C4DCC930059D7AA /* TCTapOnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F3CB871C4DCC930059D7AA /* TCTapOnView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		5307BAB11C4D86E60026910C /* TapCirclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCirclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5307BAB51C4D86E60026910C /* TapCirclesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapCirclesTests.m; sourceTree = "<group>"; };
 		5307BAB71C4D86E60026910C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F3CB7E1C4DBD470059D7AA /* TCTapCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTapCircleView.h; sourceTree = "<group>"; };
+		53F3CB7F1C4DBD470059D7AA /* TCTapCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTapCircleView.m; sourceTree = "<group>"; };
+		53F3CB861C4DCC930059D7AA /* TCTapOnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTapOnView.h; sourceTree = "<group>"; };
+		53F3CB871C4DCC930059D7AA /* TCTapOnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTapOnView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		5307BA9A1C4D86E60026910C /* TapCircles */ = {
 			isa = PBXGroup;
 			children = (
+				53F3CB851C4DCC6B0059D7AA /* Models */,
 				5307BAC01C4D88590026910C /* Commons */,
 				5307BAC11C4D885E0026910C /* Controllers */,
 				5307BA9B1C4D86E60026910C /* Supporting Files */,
@@ -131,8 +138,19 @@
 		5307BAC21C4D88660026910C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				53F3CB7E1C4DBD470059D7AA /* TCTapCircleView.h */,
+				53F3CB7F1C4DBD470059D7AA /* TCTapCircleView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		53F3CB851C4DCC6B0059D7AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53F3CB861C4DCC930059D7AA /* TCTapOnView.h */,
+				53F3CB871C4DCC930059D7AA /* TCTapOnView.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5307BAA31C4D86E60026910C /* TCViewController.m in Sources */,
+				53F3CB801C4DBD470059D7AA /* TCTapCircleView.m in Sources */,
 				5307BAA01C4D86E60026910C /* TCAppDelegate.m in Sources */,
 				5307BA9D1C4D86E60026910C /* main.m in Sources */,
+				53F3CB881C4DCC930059D7AA /* TCTapOnView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
