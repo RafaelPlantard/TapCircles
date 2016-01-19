@@ -51,7 +51,7 @@
 
 - (void)registerTapGesture {
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapHandler:)];
-    tapGesture.numberOfTouchesRequired = 1;
+    tapGesture.numberOfTapsRequired = 1;
     
     [self addGestureRecognizer:tapGesture];
 }
