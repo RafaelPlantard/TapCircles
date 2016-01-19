@@ -87,9 +87,9 @@
 		5307BA9A1C4D86E60026910C /* TapCircles */ = {
 			isa = PBXGroup;
 			children = (
-				53F3CB851C4DCC6B0059D7AA /* Models */,
 				5307BAC01C4D88590026910C /* Commons */,
 				5307BAC11C4D885E0026910C /* Controllers */,
+				53F3CB851C4DCC6B0059D7AA /* Models */,
 				5307BA9B1C4D86E60026910C /* Supporting Files */,
 				5307BAC21C4D88660026910C /* Views */,
 				5307BAA71C4D86E60026910C /* Assets.xcassets */,
